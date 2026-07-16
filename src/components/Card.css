@@ -1,0 +1,55 @@
+.card{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-2px);
+}
+
+.card img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.card-content{
+    flex:1;
+}
+
+.card-content h3{
+    font-size:18px;
+    margin-bottom:8px;
+    text-transform:capitalize;
+}
+
+.card-content p{
+    color:#666;
+    line-height:22px;
+}
+
+.delete-btn{
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+    background:#ffe5e5;
+    color:red;
+    cursor:pointer;
+    font-size:22px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.delete-btn:hover{
+    background:red;
+    color:white;
+}
